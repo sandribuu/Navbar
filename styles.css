@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/baackground.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2.5%;
+    width: 100%;
+    height: 70px;
+}
+
+.links li{
+    display: inline-block;
+
+}
+
+.links li a button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+button{
+    background-color: #F56D91;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.links li a button:hover{
+    background-color: #F56D91;
+    color: white;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.logo {
+    width: 175px;
+    height: 175px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/layered-waves-haikei.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: black;
+}*/
